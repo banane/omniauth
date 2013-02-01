@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.email = ['michael@intridea.com', 'sferik@gmail.com']
 
   spec.add_dependency 'rack'
-  spec.add_dependency 'hashie', '~> 1.2'
+  spec.add_dependency 'hashie', '~> 2.0'
 
   spec.version = OmniAuth::VERSION
   spec.files = %w(.yardopts LICENSE.md README.md Rakefile omniauth.gemspec)
