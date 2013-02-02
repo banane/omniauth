@@ -9,6 +9,8 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'rack'
   spec.add_dependency 'hashie', '2.0.0.beta'
+  spec.add_dependency 'omniauth-oath2',  github: 'banane/omniauth-oauth2'
+
 
   spec.version = OmniAuth::VERSION
   spec.files = %w(.yardopts LICENSE.md README.md Rakefile omniauth.gemspec)
